@@ -1,2 +1,3 @@
-# javaFXGradleDemo
-Gradle and JavaFX 11.0.2 based template
+# BodyBand for Android
+
+Gradle build of ![BodyBand](https://github.com/jfspps/BodyBand) 
