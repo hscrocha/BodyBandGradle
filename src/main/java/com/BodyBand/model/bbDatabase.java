@@ -7,7 +7,7 @@ import java.util.List;
 public class bbDatabase {
 
     // SQLite generates databases *.db automatically if they do not exist
-    public static final String DB_NAME = "bodyband.db";
+    public static final String DB_NAME = "./bodyband.db";
     public static final String CONNECTION_STRING = "jdbc:sqlite:" + DB_NAME;
 
     //indices for ResultSet tables---------------------------------------------------------

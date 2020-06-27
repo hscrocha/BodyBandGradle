@@ -30,7 +30,7 @@ set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%..
 
 @rem Add default JVM options here. You can also use JAVA_OPTS and BODY_BAND_ANDROID_OPTS to pass JVM options to this script.
-set DEFAULT_JVM_OPTS="--module-path" "%APP_HOME%\lib" "--module" "extension 'java'/com.BodyBand.Main"
+set DEFAULT_JVM_OPTS="--module-path" "%APP_HOME%\lib" "--module" "BodyBandAndroid/com.BodyBand.Main"
 
 @rem Find java.exe
 if defined JAVA_HOME goto findJavaFromJavaHome
@@ -82,7 +82,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=
 
 @rem Execute BodyBandAndroid
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %BODY_BAND_ANDROID_OPTS%  -classpath "%CLASSPATH%" extension 'java'/com.BodyBand.Main %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %BODY_BAND_ANDROID_OPTS%  -classpath "%CLASSPATH%" com.BodyBand.Main %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
