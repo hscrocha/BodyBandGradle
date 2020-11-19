@@ -78,10 +78,8 @@ fabric.properties
 ### Intellij Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
-*.iml
 modules.xml
 .idea/misc.xml
-*.ipr
 
 # Sonarlint plugin
 .idea/**/sonarlint/
@@ -127,6 +125,9 @@ hs_err_pid*
 .gradle
 build/
 
+# Maven
+target/
+
 # Ignore Gradle GUI config
 gradle-app.setting
 
@@ -144,3 +145,61 @@ gradle-app.setting
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,java
 
+
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
+
+# External tool builders
+.externalToolBuilders/**
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+######################
+# Intellij
+######################
+/.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+######################
+# Visual Studio Code
+######################
+.vscode/
+
+######################
+# Maven
+######################
+/log/
+/target/
+
+######################
+# Gradle
+######################
+.gradle/
+/build/
