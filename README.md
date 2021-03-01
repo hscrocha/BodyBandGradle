@@ -2,7 +2,7 @@
 
 # BodyBand
 
-BodyBand is a [Java](https://www.linuxuprising.com/2019/06/new-oracle-java-11-installer-for-ubuntu.html) and SQL based workout recorder. This particular repo is built with Gradle. The original repo (pre-Gradle) is [here](https://github.com/jfspps/BodyBand).
+BodyBand is a [Java](https://www.linuxuprising.com/2019/06/new-oracle-java-11-installer-for-ubuntu.html) and SQL based workout recorder. This particular repo is built with Gradle. The original repo (pre-Gradle) is [here](https://github.com/jfspps/BodyBand). Instructions to install Gradle 6 were followed [here](https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/how-to-install-gradle-on-ubuntu-18-04-16-04-linux-mint-19-debian-9.html).
 
 
 ## Running BodyBand.jar from the command line ##
