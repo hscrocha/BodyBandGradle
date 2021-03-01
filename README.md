@@ -11,7 +11,7 @@ A compiled copy of BodyBand can be found in /JAR, with instructions, for Linux a
 
 ## Setting up the SQLite3 driver
 
-SQLite3 driver is [here](https://bitbucket.org/xerial/sqlite-jdbc/downloads/). The SQLite browser is [here](https://sqlitebrowser.org/) with installation instructions.
+SQLite3 driver is [here](https://github.com/xerial/sqlite-jdbc). The SQLite browser is [here](https://sqlitebrowser.org/) with installation instructions.
 
 In IntelliJ, click File then Project Structure and then Project Settings/Libraries. Add the SQLite JAR file.
 
