@@ -86,8 +86,6 @@ The rep page is where the user can enter current rep count for a given exercise.
 
 More advanced features and functionality could include:
 
-- Port to Android and iOS using the JavaFXPorts plugin in Gradle (Gradle build started [here](https://github.com/jfspps/BodyBandGradle))
-
 - Recording of personal bests
 
 - Volume training trends (accumulated sum of weight lifted in a given session) plotted graphically.
