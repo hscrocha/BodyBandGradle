@@ -5,9 +5,9 @@
 BodyBand is a [Java](https://www.linuxuprising.com/2019/06/new-oracle-java-11-installer-for-ubuntu.html) and SQL based workout recorder. This particular repo is built with Gradle. The original repo (pre-Gradle) is [here](https://github.com/jfspps/BodyBand).
 
 
-## Running BodyBand.jar from the command line ##
+## Demo-ing BodyBandAndroid-all.jar from the command line ##
 
-A compiled copy of BodyBand can be found in /JAR, with instructions, for Linux and Windows users. Note that the video URL function does not work in Windows (BodyBand is developed in Linux).
+A compiled copy of BodyBand can be found in /JAR, with instructions, for Linux and Windows users. Note that the video URL function does not work in Windows (BodyBand is developed in Linux). See [here](/JAR/README.md). Hosting the application through [Docker](/src/docker/Dockerfile) is currently under investigation.
 
 ## Setting up the SQLite3 driver
 
