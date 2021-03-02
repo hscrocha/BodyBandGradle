@@ -2,7 +2,7 @@
 
 # BodyBand
 
-BodyBand is a [Java](https://www.linuxuprising.com/2019/06/new-oracle-java-11-installer-for-ubuntu.html) and SQL based workout recorder. This particular repo is built with Gradle. The original repo (pre-Gradle) is [here](https://github.com/jfspps/BodyBand).
+BodyBand is a [Java](https://www.linuxuprising.com/2019/06/new-oracle-java-11-installer-for-ubuntu.html) and SQL based workout recorder. This particular repo is built with Gradle. The original repo (pre-Gradle) is [here](https://github.com/jfspps/BodyBand). Instructions to install Gradle 6 were followed [here](https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/how-to-install-gradle-on-ubuntu-18-04-16-04-linux-mint-19-debian-9.html).
 
 
 ## Demo-ing BodyBandAndroid-all.jar from the command line ##
@@ -11,7 +11,7 @@ A compiled copy of BodyBand can be found in /JAR, with instructions, for Linux a
 
 ## Setting up the SQLite3 driver
 
-SQLite3 driver is [here](https://bitbucket.org/xerial/sqlite-jdbc/downloads/). The SQLite browser is [here](https://sqlitebrowser.org/) with installation instructions.
+SQLite3 driver is [here](https://github.com/xerial/sqlite-jdbc). The SQLite browser is [here](https://sqlitebrowser.org/) with installation instructions.
 
 In IntelliJ, click File then Project Structure and then Project Settings/Libraries. Add the SQLite JAR file.
 
